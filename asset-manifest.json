@@ -1,18 +1,29 @@
 {
   "files": {
-    "main.css": "/Portfolio-React/static/css/main.9cd79604.css",
-    "main.js": "/Portfolio-React/static/js/main.6c6ce779.js",
+    "main.css": "/Portfolio-React/static/css/main.d5b81ca4.css",
+    "main.js": "/Portfolio-React/static/js/main.2852bdcf.js",
     "static/js/787.c1112931.chunk.js": "/Portfolio-React/static/js/787.c1112931.chunk.js",
+    "static/media/Digisound - Figma.pdf": "/Portfolio-React/static/media/Digisound - Figma.e781fb8b6a0ac2a8080f.pdf",
     "static/media/CV-Ragues.pdf": "/Portfolio-React/static/media/CV-Ragues.c858c00a5abc6eaa20ad.pdf",
+    "static/media/DigisoundFigma.png": "/Portfolio-React/static/media/DigisoundFigma.3ba3d7dda1a49f245342.png",
     "static/media/Osyla.png": "/Portfolio-React/static/media/Osyla.0bad5df40a9c14e19a5d.png",
+    "static/media/AgriProxi.png": "/Portfolio-React/static/media/AgriProxi.1470ed906415839747ed.png",
+    "static/media/Lilipinso.png": "/Portfolio-React/static/media/Lilipinso.a1555b2ac5429e8f377d.png",
+    "static/media/Systematic.png": "/Portfolio-React/static/media/Systematic.f89a77dc64da32793f8c.png",
+    "static/media/FrazerCrossifitBalsamiq.png": "/Portfolio-React/static/media/FrazerCrossifitBalsamiq.f0acfff7c062f345867b.png",
+    "static/media/MyProject.png": "/Portfolio-React/static/media/MyProject.fe9f7aade32f026c7841.png",
+    "static/media/SunPower.png": "/Portfolio-React/static/media/SunPower.27222b3ef0b83f432aff.png",
+    "static/media/DigisoudBalsamiq.png": "/Portfolio-React/static/media/DigisoudBalsamiq.b0850c36a045992d6d9b.png",
+    "static/media/Frazer Crossifit - Balsamiq.pdf": "/Portfolio-React/static/media/Frazer Crossifit - Balsamiq.ce58856808cac8edabe9.pdf",
+    "static/media/Digisoud - Balsamiq.pdf": "/Portfolio-React/static/media/Digisoud - Balsamiq.b357da5a985a8049e3f4.pdf",
     "static/media/PicsJR.jpg": "/Portfolio-React/static/media/PicsJR.25a016a41e2cae53ca75.jpg",
     "index.html": "/Portfolio-React/index.html",
-    "main.9cd79604.css.map": "/Portfolio-React/static/css/main.9cd79604.css.map",
-    "main.6c6ce779.js.map": "/Portfolio-React/static/js/main.6c6ce779.js.map",
+    "main.d5b81ca4.css.map": "/Portfolio-React/static/css/main.d5b81ca4.css.map",
+    "main.2852bdcf.js.map": "/Portfolio-React/static/js/main.2852bdcf.js.map",
     "787.c1112931.chunk.js.map": "/Portfolio-React/static/js/787.c1112931.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9cd79604.css",
-    "static/js/main.6c6ce779.js"
+    "static/css/main.d5b81ca4.css",
+    "static/js/main.2852bdcf.js"
   ]
 }
