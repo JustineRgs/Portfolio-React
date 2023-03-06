@@ -68,7 +68,7 @@ export default function Accueil({}) {
           </ul>
         </div>
         <div className="card_personal">
-          <img src="../../img/PicsJR.jpg" alt="Photo de Justine" />
+          <img src={require("../../img/PicsJR.jpg")} alt="Photo de Justine" />
           <p className="name">Justine Ragues</p>
           <p>26 ans &#x2022; Montpellier</p>
           <p className="citation">

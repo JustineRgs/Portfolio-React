@@ -48,6 +48,11 @@
   height: 100%;
 }
 
+.nav-link:hover {
+  color: #f393de;
+  transition: all 0.3s ease;
+}
+
 .menu-icon {
   display: none;
 }
