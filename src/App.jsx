@@ -9,15 +9,15 @@ import Contact from "./pages/Contact/Contact";
 function App() {
   const URL = [
     {
-      path: "/",
+      path: "/Portfolio-React",
       element: <Accueil />,
     },
     {
-      path: "/projets",
+      path: "/Portfolio-React/projets",
       element: <Projects />,
     },
     {
-      path: "/contact",
+      path: "/Portfolio-React/contact",
       element: <Contact />,
     },
   ];

@@ -21,17 +21,29 @@ function Navbar() {
         </div>
         <ul className={click ? "nav-menu active" : "nav-menu"}>
           <li className="nav-item">
-            <Link to="/" className="nav-link" onClick={closeMobileMenu}>
+            <Link
+              to="/Portfolio-React"
+              className="nav-link"
+              onClick={closeMobileMenu}
+            >
               Accueil
             </Link>
           </li>
           <li className="nav-item">
-            <Link to="/projets" className="nav-link" onClick={closeMobileMenu}>
+            <Link
+              to="/Portfolio-React/projets"
+              className="nav-link"
+              onClick={closeMobileMenu}
+            >
               Projets
             </Link>
           </li>
           <li className="nav-item">
-            <Link to="/contact" className="nav-link" onClick={closeMobileMenu}>
+            <Link
+              to="/Portfolio-React/contact"
+              className="nav-link"
+              onClick={closeMobileMenu}
+            >
               Contact
             </Link>
           </li>

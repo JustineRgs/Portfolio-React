@@ -6,17 +6,15 @@ function Header() {
 
   let headerTitle;
   let headerSpan;
-  if (location.pathname === "/") {
-    headerTitle = "présentation";
-    headerSpan = "à propos";
-  }
-  if (location.pathname === "/projets") {
+  if (location.pathname === "/Portfolio-React/projets") {
     headerTitle = "Mes projets";
     headerSpan = "portfolio";
-  }
-  if (location.pathname === "/contact") {
+  } else if (location.pathname === "/Portfolio-React/contact") {
     headerTitle = "Contactez moi !";
     headerSpan = "Contact";
+  } else {
+    headerTitle = "présentation";
+    headerSpan = "à propos";
   }
 
   return (

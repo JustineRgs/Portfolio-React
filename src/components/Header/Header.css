@@ -13,12 +13,12 @@
 }
 
 .header span {
-  font-size: 100px;
+  font-size: 62px;
   position: absolute;
   left: 0;
   right: 0;
   text-align: center;
-  top: -53px;
+  top: -24px;
   z-index: 0;
   opacity: 0.05;
   font-weight: 700;
@@ -27,4 +27,11 @@
 hr {
   margin-bottom: 60px;
   border: solid 1px #bebebe;
+}
+
+@media (min-width: 900px) {
+  .header span {
+    font-size: 100px;
+    top: -53px;
+  }
 }
