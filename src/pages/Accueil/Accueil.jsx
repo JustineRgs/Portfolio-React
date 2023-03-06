@@ -75,7 +75,11 @@ export default function Accueil({}) {
             "Codez toujours comme si la personne qui allait maintenir votre code
             était un violent psychopathe qui sait où vous habitez. ― John Woods"
           </p>
-          <a href="img/CV-Ragues.pdf" className="link" target="_blank">
+          <a
+            href={require("../../img/CV-Ragues.pdf")}
+            className="link"
+            target="_blank"
+          >
             <ion-icon name="download-outline"></ion-icon> Téléchargez mon CV
           </a>
         </div>
