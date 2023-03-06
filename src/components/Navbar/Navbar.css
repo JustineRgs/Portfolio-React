@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap");
+
+.navbar {
+  background-color: #1f1f1f;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1300px;
+  padding: 0 50px;
+}
+
+.navbar-logo {
+  font-family: "Ms Madi";
+  font-size: 40px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  text-align: center;
+}
+
+.nav-item {
+  height: 80px;
+}
+
+.nav-link {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 0 1rem;
+  height: 100%;
+}
+
+.menu-icon {
+  display: none;
+}
+
+.burger-menu {
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  margin: 5px;
+  transition: all 0.3s ease-in-out;
+}
+
+.burger-menu:last-child {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 960px) {
+  .navbar-container {
+    padding: 0 30px;
+  }
+
+  .nav-menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 90vh;
+    position: absolute;
+    top: 80px;
+    left: -100%;
+    opacity: 1;
+    transition: all 0.5s ease;
+    margin-right: -22px;
+  }
+
+  .nav-menu.active {
+    background-color: #1f1f1f;
+    left: 0;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 1;
+  }
+
+  .menu-icon {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-100%, 130%);
+    font-size: 1.8rem;
+    cursor: pointer;
+    color: #fff;
+    z-index: 2;
+  }
+
+  .burger-menu {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 5px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .burger-menu:last-child {
+    margin-bottom: 0;
+  }
+
+  .burger-menu.active:nth-child(1) {
+    transform: rotate(45deg);
+    top: 12px;
+    left: 10px;
+  }
+
+  .burger-menu.active:nth-child(2) {
+    opacity: 0;
+  }
+
+  .burger-menu.active:nth-child(3) {
+    transform: rotate(-45deg);
+    top: -12px;
+    left: 10px;
+  }
+
+  .nav-link:hover {
+    color: #f393de;
+    transition: all 0.3s ease;
+  }
+
+  .navbar-logo {
+    display: table;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(25%, 35%);
+  }
+
+  .menu-icon i.fa-times {
+    font-size: 2rem;
+  }
+}

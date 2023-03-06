@@ -1,0 +1,174 @@
+.card {
+  width: 90%;
+  margin: auto;
+}
+
+.card_presentation {
+  padding: 16px;
+  margin-bottom: 30px;
+  box-shadow: 0px 0px 9px 2px #dddddd87;
+}
+
+.card_presentation p {
+  margin-bottom: 16px;
+}
+
+.card_presentation span {
+  color: #f683dd;
+  font-weight: bold;
+}
+
+.card_presentation ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 30px;
+}
+
+.card_presentation li {
+  padding: 8px 14px;
+  margin: 10px 25px;
+  border-radius: 18px;
+  color: #fff;
+  width: fit-content;
+}
+
+.card_presentation li:nth-child(1) {
+  background-color: #768bbc;
+}
+
+.card_presentation li:nth-child(2) {
+  background-color: #76b490;
+}
+
+.card_presentation li:nth-child(3) {
+  background-color: #5b5963;
+}
+
+.card_presentation li:nth-child(4) {
+  background-color: #f683dd;
+}
+
+.card_presentation li:nth-child(5) {
+  background-color: #573fbd;
+}
+
+.card_personal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 40px;
+  box-shadow: 0px 0px 9px 2px #dddddd87;
+}
+
+.card_personal img {
+  width: 150px;
+}
+
+.name {
+  font-size: 23px;
+  margin: 5px 0 15px 0;
+}
+
+.citation {
+  font-style: italic;
+  margin-top: 20px;
+}
+
+.link {
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.card_skills {
+  width: calc(90% - 32px);
+  margin: 30px auto;
+  padding: 16px;
+}
+
+.card_skills--Secondary {
+  box-shadow: 0px 0px 9px 2px #dddddd87;
+}
+
+.skills {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  font-family: "Poppins";
+  text-align: center;
+}
+
+.skills_cat {
+  border-radius: 15px;
+  padding: 5px;
+  margin: 10px 30px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.skills_cat--Secondary {
+  margin: 10px 0;
+  font-size: 16px;
+  font-weight: 100;
+  background: #f5f5f5c2;
+  padding: 21px 0;
+}
+
+.skills ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skills_cat--Secondary li {
+  font-family: "Nunito Sans", sans-serif;
+  color: #fff;
+  background-color: #2e33df73;
+  border-radius: 18px;
+  width: fit-content;
+  padding: 7px 14px;
+  margin: 5px 3px;
+}
+
+@media (min-width: 900px) {
+  .card {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .card_presentation {
+    margin-bottom: 0;
+    width: 60%;
+  }
+
+  .card_personal {
+    width: 30%;
+    padding: 16px;
+  }
+
+  .skills {
+    display: flex;
+    flex-direction: initial;
+  }
+
+  .skills_cat {
+    width: 23%;
+  }
+
+  .citation {
+    margin-top: 70px;
+  }
+
+  .link {
+    margin-top: 70px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .card {
+    width: 60%;
+  }
+  .card_skills {
+    width: calc(60% - 32px);
+  }
+}

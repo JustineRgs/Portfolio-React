@@ -1,0 +1,30 @@
+.header {
+  padding: 35px;
+  margin: 50px 0 30px 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.header h1 {
+  font-size: 24px;
+  font-weight: 300;
+  color: #5b5963;
+  position: relative;
+}
+
+.header span {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  text-align: center;
+  top: -53px;
+  z-index: 0;
+  opacity: 0.05;
+  font-weight: 700;
+}
+
+hr {
+  margin-bottom: 60px;
+  border: solid 1px #bebebe;
+}

@@ -1,0 +1,13 @@
+.card_contact {
+  display: flex;
+  margin: auto;
+  font-family: "Poppins";
+  font-size: 19px;
+  text-align: center;
+  justify-content: center;
+}
+
+.contact {
+  margin: 40px;
+  width: 230px;
+}
