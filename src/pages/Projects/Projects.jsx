@@ -8,7 +8,7 @@ export default function Projects({ project }) {
       name: "Osyla",
       title: "Générateur de formulaire",
       description:
-        "Générateur de formulaire à partir d'un JSON. Création d'une maquette Figma, et réalisation en ReactJs : Modale avec une fonction reduce, récupération des données dynamique, affichage conditionnel des différentes étapes et navigation entre ces étapes avec ReactRouter.",
+        "Générateur de formulaire à partir d'un JSON. Création d'une maquette Figma, et réalisation en ReactJs : Modale avec une fonction reduce, récupération des données dynamiques, affichage conditionnel des différentes étapes et navigation entre ces étapes avec ReactRouter.",
       support: "REACT JS / SCSS",
       type: "Professionnel",
       imgSrc: require("../../img/Osyla.png"),
@@ -19,7 +19,7 @@ export default function Projects({ project }) {
       name: "AgriProxi",
       title: "Création d'une start-up fictive",
       description:
-        "Brain storming, mise en place du projet et recherche d'un jeux de données open-source. Tri et intégration du CSV à la base de donnée MySQL, gestion de la base sur DBeaver. Mise en place d'une carte intéractive via une API, CRUD, puis création d'un gestionnaire de demande de devis avec générateur de PDF.",
+        "Brain storming, mise en place du projet et recherche d'un jeu de données open-source. Tri et intégration du CSV à la base de données MySQL, gestion de la base sur DBeaver. Mise en place d'une carte interactive via une API, CRUD, puis création d'un gestionnaire de demande de devis avec générateur de PDF.",
       support: "SYMFONY / SCSS / JAVASCRIPT",
       type: "Formation",
       imgSrc: require("../../img/AgriProxi.png"),
@@ -31,7 +31,7 @@ export default function Projects({ project }) {
       title:
         "Création d'un site de gestion de projets à partir d'un cahier des charges",
       description:
-        "Création d'un micro Framework en PHP, mise en place d'une base de donnée MySQL et gestion de la base sur phpMyAdmin.",
+        "Création d'un micro Framework en PHP, mise en place d'une base de données MySQL et gestion de la base sur phpMyAdmin.",
       support: "HTML / CSS / PHP",
       type: "Formation",
       imgSrc: require("../../img/MyProject.png"),
@@ -42,7 +42,7 @@ export default function Projects({ project }) {
       name: "SunPower",
       title: "Création d'un site vitrine à partir d'un cahier des charges.",
       description:
-        "Mise en place d'une charte graphique et d'une maquète Figma, intégration en HTML / CSS. Vérification de formulaire, modale et animation en JavaScript.",
+        "Mise en place d'une charte graphique et d'une maquette Figma, intégration en HTML / CSS. Vérification de formulaire, modale et animation en JavaScript.",
       support: "HTML / CSS / JAVASCRIPT",
       type: "Formation",
       imgSrc: require("../../img/SunPower.png"),

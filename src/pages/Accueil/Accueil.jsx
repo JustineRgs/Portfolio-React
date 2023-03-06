@@ -37,10 +37,9 @@ export default function Accueil({}) {
         <div className="card_presentation">
           <h2>Mon parcours</h2>
           <p>
-            Aprés 5 années d'expériences dans le secteur du sanitaire et
-            sociale, et de la restauration, je me suis toujours retrouvée
-            confrontée à un seul et même problème : <span>la routine</span>.{" "}
-            <br />
+            Après 5 années d'expérience dans le secteur du sanitaire et social,
+            et de la restauration, je me suis toujours retrouvée confrontée à un
+            seul et même problème : <span>la routine</span>. <br />
             <br />
             En quête de nouvelles expériences, j’ai recherché un métier de
             passion, qui pourrait concilier ma curiosité, ma créativité et mon
@@ -48,10 +47,10 @@ export default function Accueil({}) {
             &#10024;développeuse web &#10024;.
             <br />
             <br />
-            J'ai alors suivis une formation de developpeur web et web mobile à
-            l'école Diginamic à Perols (Titre RNCP niveau 5 / BAC +2) où j'ai
-            acquis les bases du developpement Web et ainsi mettre ce savoir en
-            pratique lors des differents projets de formation.
+            J'ai alors suivi une formation de développeur web et web mobile à
+            l'école Diginamic à Pérols (Titre RNCP niveau 5 / BAC +2) où j'ai
+            acquis les bases du développement Web et ainsi mettre ce savoir en
+            pratique lors des différents projets de formation.
             <br />
             <br />
             Je suis actuellement à la recherche d'une entreprise pouvant
@@ -89,8 +88,8 @@ export default function Accueil({}) {
           <div>
             <ul>
               <li className="skills_cat">
-                &#128154; <br /> Le developpement web est devenu pour moi, une
-                véritable passion qui me pousse à me depasser.
+                &#128154; <br /> Le développement web est devenu pour moi, une
+                véritable passion qui me pousse à me dépasser.
               </li>
               <li className="skills_cat">
                 &#128269; <br /> Je reste toujours en quête des bonnes pratiques
